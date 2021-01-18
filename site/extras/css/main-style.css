@@ -1,0 +1,18 @@
+body{
+	background-color: #f5faca;
+}
+
+h1,h2{
+	font-variant: small-caps;
+	text-align: center;
+	color: #2364f6;
+	background-color: #88f6af;
+}
+
+h1{
+	font-size: 200%;
+}
+
+h2{
+	font-size: 160%;
+}
