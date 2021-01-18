@@ -1,69 +1,105 @@
 body{
 	background-color: #F3E4D1;
 	font-family: Helvetica, Arial, "Times New Roman", serif;
+	margin: 1% 4%;
 }
 
 h1{
-	font-size: 180%;
-	color: #2364F6;
+	font-size: 200%;
+	color: #0C13FF;
 	font-variant: small-caps;
+	clear: both;
 }
 
 h2{
 	font-variant: small-caps;
-	color: #2364F6;
+	color: #0C13FF;
 	text-align: center;
 	font-size: 165%;
 	background-color: #EADBC9;
+	clear: both;
 }
 
 header{
 	text-align: center;
 	background-color: #E7C9A2;
-	font-size: 125%
+	padding: 1%;
 }
 
 footer{
 	text-align: center;
 	background-color: #E7C9A2;
 	font-size: 125%;
+	padding: 1%;
 	font-variant: all-small-caps;
 }
 
 nav{
-	background-color: #EED5AF;
 	font-variant: all-small-caps;
+	font-size: 125%;
 }
 
-strong{
-	font-family: Arial, Verdana, serif;
+a{
+	font-weight: 700;
+	text-decoration: none;
 }
 
-#back-to-top{
-	text-align: right;
+header a{
+	background-color: #F3E4D1;
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #4A4FF8;
 }
 
-/* career.html start*/
+footer a{
+	background-color: #F3E4D1;
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+	padding: 5px;
+	margin-top: 5px;
+	border: 2px solid #4A4FF8;
+}
+
+a:visited{
+	/*color: #0C13FF;*/
+	color: #808080;
+}
+
+a:hover,a:focus{
+	background-color: #D5B283;
+	border: 2px solid #D5B283;
+	color: #4A4FF8;
+}
+
+a:active{
+	border: 2px solid #000000;
+}
+
 ul[id="education-list"]{
-	background-color: green;
-	display: table;
+	/*background-color: green;*/
+	/*display: table;*/
 }
 
 #education-list li{
-	background-color: lightgreen;
+	/*background-color: lightgreen;*/
 	/*display: table-cell;*/
 	float: left;
 	width: 25%;
 	display: inline-block;
 	overflow: auto;
-	height: 300px;
-	margin: 10px;
-	border: 5px solid black;
-	padding: 15px;
+	height: 150%;
+	margin: 1%;
+	/*border: 5px solid black;*/
+	border: 5px solid transparent;
+	padding: 1.5%;
 
 }
 
 #scholastic-achievements strong{
+	font-family: Arial, Verdana, serif;
 	font-weight: 400;
 }
-/* career.html end*/
