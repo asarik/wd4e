@@ -1,18 +1,69 @@
 body{
-	background-color: #f5faca;
-}
-
-h1,h2{
-	font-variant: small-caps;
-	text-align: center;
-	color: #2364f6;
-	background-color: #88f6af;
+	background-color: #F3E4D1;
+	font-family: Helvetica, Arial, "Times New Roman", serif;
 }
 
 h1{
-	font-size: 200%;
+	font-size: 180%;
+	color: #2364F6;
+	font-variant: small-caps;
 }
 
 h2{
-	font-size: 160%;
+	font-variant: small-caps;
+	color: #2364F6;
+	text-align: center;
+	font-size: 165%;
+	background-color: #EADBC9;
 }
+
+header{
+	text-align: center;
+	background-color: #E7C9A2;
+	font-size: 125%
+}
+
+footer{
+	text-align: center;
+	background-color: #E7C9A2;
+	font-size: 140%;
+	font-variant: all-small-caps;
+}
+
+nav{
+	background-color: #EED5AF;
+	font-variant: all-small-caps;
+}
+
+strong{
+	font-family: Arial, Verdana, serif;
+}
+
+#back-to-top{
+	text-align: right;
+}
+
+/* career.html start*/
+ul[id="education-list"]{
+	background-color: green;
+	display: table;
+}
+
+#education-list li{
+	background-color: lightgreen;
+	/*display: table-cell;*/
+	float: left;
+	width: 25%;
+	display: inline-block;
+	overflow: auto;
+	height: 300px;
+	margin: 10px;
+	border: 5px solid black;
+	padding: 15px;
+
+}
+
+#scholastic-achievements strong{
+	font-weight: 400;
+}
+/* career.html end*/
