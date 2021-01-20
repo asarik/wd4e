@@ -43,12 +43,9 @@ ul{
 	list-style-type: square;
 }
 
-a{
+nav>a{
 	font-weight: 700;
 	text-decoration: none;
-}
-
-nav>a{
 	background-color: #F3E4D1;
 	display: block;
 	width: 150px;
@@ -60,6 +57,8 @@ nav>a{
 }
 
 footer>a{
+	font-weight: 700;
+	text-decoration: none;
 	background-color: #F3E4D1;
 	display: block;
 	width: 150px;
@@ -87,34 +86,20 @@ a:visited{
 	color: #0C13FF;
 }
 
-a:hover,a:focus{
-	background-color: #D5B283;
-	border: 2px solid #D5B283;
+nav>a:hover, footer>a:hover{
+	background-color: #EBC086;
+	border: 3px solid #0C13FF;
 	color: #0C13FF;
-	/*padding: 6px;
-	margin-top: 4px;
-	margin-bottom: 4px;*/
+	padding: 4px;
 }
 
-a:active{
-	border: 2px solid #000000;
+nav>a:focus, footer>a:focus{
+	background-color: #EBC086;
+	border: 3px solid #000000;
+	color: #0C13FF;
+	padding: 4px;
 }
 
-#education-list li{
-	/*background-color: lightgreen;*/
-	float: left;
-	width: 25%;
-	display: inline-block;
-	overflow: auto;
-	height: 150%;
-	margin: 1%;
-	/*border: 5px solid black;*/
-	border: 5px solid transparent;
-	padding: 1.5%;
-
-}
-
-#scholastic-achievements strong{
-	font-family: Arial, Verdana, serif;
-	font-weight: 400;
+nav>a:active, footer>a:active{
+	border: 3px solid #000000;
 }

@@ -1,0 +1,18 @@
+ul[id="education-list"]>li{
+	/*background-color: lightgreen;*/
+	float: left;
+	width: 25%;
+	display: inline-block;
+	overflow: auto;
+	height: 150%;
+	margin: 1%;
+	/*border: 5px solid black;*/
+	border: 5px solid transparent;
+	padding: 1.5%;
+
+}
+
+ul[id="scholastic-achievements-list"] strong{
+	font-family: Arial, Verdana, serif;
+	font-weight: 400;
+}
