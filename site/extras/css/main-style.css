@@ -1,11 +1,11 @@
 body{
 	background-color: #F3E4D1;
-	font-family: Helvetica, Arial, "Times New Roman", serif;
+	font-family: Helvetica, Arial, serif;
 	margin: 1% 4%;
 }
 
 h1{
-	font-size: 200%;
+	font-size: 210%;
 	color: #0C13FF;
 	font-variant: small-caps;
 	clear: both;
@@ -15,7 +15,7 @@ h2{
 	font-variant: small-caps;
 	color: #0C13FF;
 	text-align: center;
-	font-size: 165%;
+	font-size: 170%;
 	background-color: #EADBC9;
 	clear: both;
 }
@@ -39,54 +39,69 @@ nav{
 	font-size: 125%;
 }
 
+ul{
+	list-style-type: square;
+}
+
 a{
 	font-weight: 700;
 	text-decoration: none;
 }
 
-header a{
-	background-color: #F3E4D1;
-	display: block;
-	width: 150px;
-	margin: 0 auto;
-	padding: 5px;
-	margin-bottom: 5px;
-	border: 2px solid #4A4FF8;
-}
-
-footer a{
+nav>a{
 	background-color: #F3E4D1;
 	display: block;
 	width: 150px;
 	margin: 0 auto;
 	padding: 5px;
 	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #4A4FF8;
+}
+
+footer>a{
+	background-color: #F3E4D1;
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #4A4FF8;
+}
+
+a[id="back-to-top"]{
+	all:revert;
+	font-weight: 700;
+	text-decoration: none;
+	background-color: #F3E4D1;
+	display: block;
+	width: 150px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	border: 2px solid #4A4FF8;
 }
 
 a:visited{
-	/*color: #0C13FF;*/
 	color: #0C13FF;
 }
 
 a:hover,a:focus{
 	background-color: #D5B283;
 	border: 2px solid #D5B283;
-	color: #4A4FF8;
+	color: #0C13FF;
+	/*padding: 6px;
+	margin-top: 4px;
+	margin-bottom: 4px;*/
 }
 
 a:active{
 	border: 2px solid #000000;
 }
 
-ul[id="education-list"]{
-	/*background-color: green;*/
-	/*display: table;*/
-}
-
 #education-list li{
 	/*background-color: lightgreen;*/
-	/*display: table-cell;*/
 	float: left;
 	width: 25%;
 	display: inline-block;
