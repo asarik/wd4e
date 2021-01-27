@@ -78,7 +78,7 @@ input:checked + label{
 }
 
 input:checked ~ nav{
-	max-height: 300px;
+	max-height: 300px;	
 }
 
 a{
