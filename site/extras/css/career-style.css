@@ -1,18 +1,31 @@
-ul[id="education-list"]> li{
+#education-list> li{
 	/*background-color: lightgreen;*/
-	float: left;
-	width: 25%;
-	display: inline-block;
-	overflow: auto;
-	height: 150%;
-	margin: 1%;
-	/*border: 5px solid black;*/
-	border: 5px solid transparent;
-	padding: 1.5%;
-
+	/*float: left;*/
+	/*width: 27%;*/
+	/*display: inline-block;*/
+	/*overflow: auto;*/
+	/*height: 150%;*/
+	/*margin: 1%;*/
+	/*border: 2px solid black;*/
+	/*//border: 2px solid transparent;*/
+	/*padding: 1.5%;*/
 }
 
-ul[id="scholastic-achievements-list"] strong{
-	font-family: Arial, Verdana, serif;
-	font-weight: 400;
+.education-list-item-time{
+	/*display: inline-block;*/
+	/*font-weight: 400;*/
+	/*margin: 5px 2px;*/
+	/*font-style: italic;*/
+}
+
+.education-list-item-details{
+	/*display: inline-block;*/
+	/*font-weight: 400;*/
+	/*margin: 5px 5px;*/
+	/*line-height: 150%;*/
+}
+
+#scholastic-achievements-list strong{
+	/*font-family: Arial, Verdana, serif;*/
+	/*font-weight: 400;*/
 }
