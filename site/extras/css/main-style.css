@@ -5,11 +5,10 @@ body{
 .wrap{
 	background-color: #F3E4D1;
 	font-family: Helvetica, Arial, serif;
-	margin: 0;
-	padding: 0;
 }
 
 section{
+	clear: both;
 	padding: 5px;
 	background: linear-gradient(#F3E4D1 0%, #EFD6B8 80%, #F3E4D1 100%);
 }
