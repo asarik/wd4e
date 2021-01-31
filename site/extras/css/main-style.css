@@ -1,5 +1,6 @@
 body{
 	background-color: #EBDAB9;
+	margin: 0;
 }
 
 .wrap{
@@ -15,14 +16,14 @@ section{
 
 header{
 	padding: 5px 0px;
-	margin-top: 5px 0px;
+	margin: 5px 0px;
 	background-color: #E7C9A2;
 	background: linear-gradient(#E7C9A2 0%, #F3E4D1 100%);
 }
 
 footer{
 	padding: 5px 0px;
-	margin-bottom: 5px 0px;
+	margin: 5px 0px;
 	background-color: #E7C9A2;
 	background: linear-gradient(#F3E4D1 0%, #E7C9A2 100%);
 }
@@ -42,6 +43,7 @@ h2{
 	color: #262CFF;
 	font-size: 175%;
 	padding: 5px;
+	font-weight: 400;
 }
 
 nav{
